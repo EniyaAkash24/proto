@@ -6,7 +6,7 @@ export const portfolioData = {
   // 🏠 ABOUT SECTION (Slide 1)
   // ========================================
   about: {
-    name: "Your Name Here",
+    name: "EniyaAkash",
     title: "Your Professional Title",
     bio: "Replace this with your personal bio. Tell visitors about yourself, your passion, and what makes you unique in your field. Keep it concise and engaging!",
     avatar: "/logo.png", // Add your photo to /public/ folder and update path here
