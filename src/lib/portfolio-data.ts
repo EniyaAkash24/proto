@@ -178,10 +178,22 @@ technicalSkills: [
 ```typescript
 projects: [
   {
-    title: "DevOps",
-    description: "Project description...",
-    tech: ["Technology1", "Technology2"],
-    link: "https://your-project.com"
+    title: "CI/CD Pipeline Automation",
+    description: "Built a fully automated CI/CD pipeline using Jenkins and GitHub Actions to streamline the deployment process, reducing manual intervention and deployment time by 70%.",
+    tech: ["Jenkins", "Docker", "Kubernetes", "GitHub Actions", "AWS"],
+    link: "https://github.com/yourusername/cicd-pipeline"
+  },
+  {
+    title: "Infrastructure as Code (IaC)",
+    description: "Developed and managed cloud infrastructure using Terraform and AWS CloudFormation, enabling consistent, repeatable, and scalable infrastructure deployments across multiple environments.",
+    tech: ["Terraform", "AWS CloudFormation", "Ansible", "AWS EC2", "S3"],
+    link: "https://github.com/yourusername/iac-infrastructure"
+  },
+  {
+    title: "Monitoring and Logging System",
+    description: "Implemented centralized monitoring and logging using Prometheus, Grafana, and ELK Stack to improve system observability and reduce incident resolution time.",
+    tech: ["Prometheus", "Grafana", "ELK Stack", "Docker", "Kubernetes"],
+    link: "https://github.com/yourusername/monitoring-system"
   }
 ]
 ```
@@ -214,9 +226,19 @@ projects: [
 ```typescript
 services: [
   {
-    title: "Service Name",
-    description: "Service description...",
-    icon: "Code" // Don't change this - it's the icon name
+    title: "CI/CD Pipeline Setup",
+    description: "Design and implement automated CI/CD pipelines to streamline code integration, testing, and deployment — ensuring faster and more reliable software delivery.",
+    icon: "Code"
+  },
+  {
+    title: "Cloud Infrastructure Management",
+    description: "Provision and manage scalable cloud environments using Infrastructure as Code (IaC) tools like Terraform and AWS CloudFormation for consistent, repeatable deployments.",
+    icon: "Code"
+  },
+  {
+    title: "Monitoring & Automation",
+    description: "Set up proactive monitoring, logging, and alerting systems using Prometheus, Grafana, and ELK Stack to optimize performance and minimize downtime.",
+    icon: "Code"
   }
 ]
 ```
@@ -245,13 +267,11 @@ services: [
 ### 📧 Contact Section (Slide 7)
 ```typescript
 contact: {
-  email: "your.email@example.com",
-  phone: "+1 (555) 123-4567",     // Optional - remove if not needed
-  location: "Your City, Country",
+  email: "eniyaakash24@gmail.com",
+  location: "Tirunelveli, Tamilnadu",
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourprofile", 
-    twitter: "https://twitter.com/yourusername"  // Optional - remove if not needed
+    github: "https://github.com/EniyaAkash24",
+    linkedin: "www.linkedin.com/in/eniya-akash", 
   }
 }
 ```
